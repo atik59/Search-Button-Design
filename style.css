@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fcfcfc;
+}
+
+.main{
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+/* ------------First Button CSS Code atik59----------------- */
+.Search-Button01{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1F5F5B;
+  }
+  
+  .Search{
+    min-height: 50px;
+    max-width: 30%;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #FF5F81;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  .Search::placeholder {
+    color: #FFF;
+    font-size: 16px;
+   }
+  .button {
+    min-height: 52px;
+    padding: .5em 2em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #FF5F81;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #FFC606;
+  }
+  
+  .Search:focus, .Search:focus-visible {
+    border-color: #FF5F81;
+    outline: none;
+    color: #FFF;
+  }
+  
+
+
+/* --------Second Button CSS Code atik59----------- */
+
+
+.Search-Button02{
+    padding: 15px 50px;
+    background-color: #00AEB9;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.Button02 {
+    float: right;
+    min-height: 50px;
+    max-width: 30%;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #FFC606;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #FFF;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   }
+   
+   .Button02:focus, .Button02:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #FFC606;
+   }
+   
+   .Button02::placeholder {
+    color: #FFF;
+    font-size: 16px;
+   }
+   
+   .Button02:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   
+   
+   
+   
+   
+   
